@@ -175,3 +175,7 @@ l =[[23,24,25,26],[23,78,79,88],[52,34,35]]
 print(l[0:4:1][0][1])
 print(l[0:4][0:3])
 
+# Mutablity : we can change the value of list at paticular index
+l=[55,58,99]
+l[0]=22
+print(l)
